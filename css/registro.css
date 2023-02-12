@@ -1,0 +1,284 @@
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@font-face {
+    font-family: Mythias;
+    src: url(Mythias.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7F0F0;
+}
+
+/* MENU */
+.menu {
+    font-family: Montserrat, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+/*NAVEGADOR*/
+.navegador {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+.navegador a {
+    text-decoration: none;
+    color: #484249;
+    font-size: 25px;
+    font-weight: 500;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navegador a:hover {
+    text-decoration: underline;
+}
+
+
+/*BOTÃO DOAR HEADER*/
+.navBtn {
+    background-color: #64C272;
+    border: none;
+    border-radius: 50px;
+    width: 240px;
+    height: 60px;
+    color: white;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.navBtn:hover {
+    color: black;
+    background-color: #71e282;
+    cursor: pointer;
+}
+
+.btnDoar a:hover {
+    text-decoration: none;
+}
+
+/*DROPDOWN*/
+.dropdown a{
+    overflow: hidden;
+    transition: font-size 0.5s;
+  }
+
+  .dropdown a:hover {
+    font-size: 27px;
+  }
+
+  .dropdown img {
+    height: 50px;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: gray;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-bottom-right-radius: 15px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 600;
+
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+    transition: font-size 0.5s;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .dropdown-content a:hover {
+    color: white;
+    background-color: #267D34;
+    border-bottom-right-radius: 15px;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* REGISTRO */
+.body-color {
+    background: linear-gradient(223.62deg, #003C09 44.79%, #23B139 82.81%, #68FB7E 100%);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.registro {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.registro-esquerda {
+    width: 500px;
+    height: 850px;
+    background: linear-gradient(198.21deg, #23B139 0.02%, #003C09 98.94%);
+    border-radius: 25px 0px 0px 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro-esquerda h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
+    margin: auto 30px;
+}
+
+.registro-direita {
+    background-color: #F7F0F0;
+    width: 650px;
+    height: 850px;
+    border-radius: 0px 25px 25px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.input-label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-label label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.input-label input {
+    border: none;
+    border-radius: 15px;
+    width: 450px;
+    height: 35px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.input-label textarea {
+    resize: none;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.input-label select {
+    border: none;
+    border-radius: 15px;
+    width: 470px;
+    height: 35px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.input-label option {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.btnEnviar {
+    background-color: #64C272;
+    color: white;
+    border-radius: 15px;
+    border: none;
+
+    padding: 10px 30px 10px 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+
+    transition: color 0.5s;
+    transform: background-color 0.5s;
+}
+
+.btnEnviar:hover {
+    color: black;
+    background-color: #71e282;
+    cursor: pointer;
+}
+
+/*RODAPÉ*/
+.rodape-parceria {
+    padding: 45px;
+    background-color: #001804;
+    max-width: 100%;
+}
+
+.rodape-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 30px;
+}
+
+.rodape-copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}

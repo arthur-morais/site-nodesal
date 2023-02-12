@@ -1,0 +1,219 @@
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@font-face {
+    font-family: Mythias;
+    src: url(Mythias.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7F0F0;
+}
+
+/* MENU */
+.menu {
+    font-family: Montserrat, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+/*NAVEGADOR*/
+.navegador {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+.navegador a {
+    text-decoration: none;
+    color: #484249;
+    font-size: 25px;
+    font-weight: 500;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navegador a:hover {
+    text-decoration: underline;
+}
+
+
+/*BOTÃO DOAR HEADER*/
+.navBtn {
+    background-color: #64C272;
+    border: none;
+    border-radius: 50px;
+    width: 240px;
+    height: 60px;
+    color: white;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.navBtn:hover {
+    color: black;
+    background-color: #71e282;
+    cursor: pointer;
+}
+
+.btnDoar a:hover {
+    text-decoration: none;
+}
+
+/*DROPDOWN*/
+.dropdown a{
+    overflow: hidden;
+    transition: font-size 0.5s;
+  }
+
+  .dropdown a:hover {
+    font-size: 27px;
+  }
+
+  .dropdown img {
+    height: 50px;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: gray;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-bottom-right-radius: 15px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 600;
+
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+    transition: font-size 0.5s;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .dropdown-content a:hover {
+    color: white;
+    background-color: #267D34;
+    border-bottom-right-radius: 15px;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+/* SOBRE NÓS */
+.fundo-verde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    max-width: 100%;
+    background-color: #267D34;
+    height: 380px;
+}
+
+.fundo-verde h1 {
+    color: white;
+    font-family:'Mythias';
+    font-size: 160px;
+    font-weight: normal;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*DESCRICAO*/
+.descricao {
+    display: block;
+    margin: 0 auto;
+    
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.descricao aside {
+    float: left;
+}
+
+.descricao p {
+    font-family: Montserrat, sans-serif;  
+    font-size: 30px;
+    font-weight: 400;
+    text-align: justify;
+    margin: auto 50px auto 50px;
+    line-height: 1.5;
+}
+
+#logo-esquerda {
+    width: 400px;
+}
+
+/*RODAPÉ*/
+.rodape-parceria {
+    padding: 45px;
+    background-color: #001804;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.rodape-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 30px;
+}
+
+.rodape-copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoDesal</title>
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="icon" href="imgs/logo1.svg">
+</head>
+<body>
+
+<header>
+    <div class="menu">
+
+        <nav class="navegador">
+
+        <div class="navImg">
+            <a href="index.html"><img src="imgs/logo1.svg" alt="Logo NoDesal"></a>
+        </div>
+        
+            <a href="index.html">Início</a>
+
+            <div class="dropdown">
+                <a href="about.html">Sobre nós</a>
+                <div class="dropdown-content">
+                    <a href="devs.html">Desenvolvedores</a>
+                </div>
+            </div>  
+
+            <div class="dropdown">
+                <a href="parceria.html"> Parceria</a>
+                <div class="dropdown-content">
+                    <a href="parceria.html">Empresas</a>
+                    <a href="ongs-parceiras.html">ONGs</a>
+                </div>
+            </div>
+
+            <a href="contato.html">Contato</a>
+            <a href="login.html">Entrar</a>
+
+        <div class="btnDoar">
+            <a href="ongs-parceiras.html"><button class="navBtn">Quero doar</button></a>
+        </div>
+
+        </nav>
+        
+    </div>
+</header>
+
+<section class="body-color">
+    <div class="registro">
+        <div class="registro-esquerda">
+            <h2>Sua empresa quer fazer parte do projeto? <br><br> Inscreva-se!</h2>
+        </div>
+        <div class="registro-direita">
+            <div class="input-label">
+                <label for="nome">Nome *</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="input-label">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email">
+            </div>
+            <div class="input-label">
+                <label for="password">Senha *</label>
+                <input type="password" id="password">
+            </div>
+            <div class="input-label">
+                <label for="empresaong">Sou uma: *</label>
+                <select name="empresaong" id="empresaong">
+                    <option value="selecione">Selecione...</option>
+                    <option value="empresa">Empresa</option>
+                    <option value="ong">ONG</option>
+                </select>
+            </div>
+            <div class="input-label">
+                <label for="cnpj">CNPJ</label>
+                <input type="text" id="cnpj">
+            </div>
+            <div class="input-label">
+                <label for="tel">Telefone *</label>
+                <input type="tel" id="telefone">
+            </div>
+            <div class="input-label">
+                <label for="mensagem">Mensagem *</label>
+                <textarea name="mensagem" id="mensagem" cols="60" rows="7"></textarea>
+            </div>
+            <input class="btnEnviar" type="button" value="Enviar">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="rodape-parceria">
+        <div class="rodape-logos">
+            <a href="#"><img src="imgs/instagram-logo-footer.svg" alt="logo instagram"></a>
+            <a href="#"><img src="imgs/twitter-logo-footer.svg" alt="logo twitter"></a>
+            <a href="#"><img src="imgs/email-logo-footer.svg" alt="logo email"></a>
+        </div>
+        <div class="rodape-copyright">
+            <p>© Copyright 2022 NoDesal - Todos os direitos reservados </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
